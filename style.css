@@ -23,7 +23,13 @@ h1 {
     padding: 20px;
 }
 
+body > footer {
+    position: sticky;
+    top: 100vh;
+}
+
 footer {
+    text-align: center;
     flex-shrink: 0;
     font-size: .875rem;
     color: #63707c;
@@ -33,7 +39,12 @@ footer {
 }
 ul {
     list-style-type: none;
+    text-align: center;
 }
 a {
+    color: #000;
     text-decoration: none;
+}
+img {
+    font-size: 30px;
 }
