@@ -1,0 +1,39 @@
+html, body{
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font: 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+    /* background: linear-gradient(to right, red , yellow);  */
+    }
+
+
+h1 {
+    text-align: center;
+    flex: 1 0 auto;
+    padding: 20px;
+}
+
+footer {
+    flex-shrink: 0;
+    font-size: .875rem;
+    color: #63707c;
+    padding: 20px;
+    line-height: 1.5;
+    @media (min-width: 768px) { padding: 3rem!important;}
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
